@@ -29,7 +29,6 @@
 
 .card{
     width: 40%;
-    height: 100px;
     background: #e4e4e4;
     border: 1px #3333 solid;
     margin: 10px;
@@ -52,6 +51,11 @@
 .card p{
     color: #0088cc;
     text-align: justify;
+    line-height: 30px;
+}
+
+.klik {
+    text-decoration: none;
 }
 
 .card-red{
