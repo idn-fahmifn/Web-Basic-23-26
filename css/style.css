@@ -136,16 +136,18 @@ div > .red{
 
 .block{
     display: block;
+    background-color: #b1cc00;
 }
 
 .inline{
-    width: 40px;
     display: inline;
 }
 
 .inline-block{
     width: 40%;
+    height: 100px;
     display: inline-block;
+    background-color: #00cc69;
 }
 
 
