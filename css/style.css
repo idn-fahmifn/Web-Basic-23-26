@@ -100,4 +100,17 @@ div > .red{
     margin: 20px;
 }
 
+.area-tepi .card-tepi:first-child{
+    border: 4px #222222 solid;
+}
+
+.area-tepi .card-tepi:nth-child(2){
+    border-radius: 1000px;
+}
+
+.area-tepi .card-tepi:last-child{
+    box-shadow: #22222280 5px 5px 20px;
+}
+
+
 
