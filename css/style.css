@@ -35,6 +35,25 @@
     margin: 10px;
 }
 
+/* menunjuk setiap child card yang ganjil */
+.area .card:nth-child(even){
+    background-color: #0088cc;
+}
+
+.area .card:last-child{
+    background-color: #bb0000;
+}
+
+.card:hover{
+    background-color: #bb0000;
+    color: #e4e4e4;
+}
+
+.card p{
+    color: #0088cc;
+    text-align: justify;
+}
+
 .card-red{
     background-color: #bb0000;
 }
@@ -48,9 +67,7 @@
     background-color: #eeff00;
 }
 
-/* .fourth-card .judul h1{
-    color: #bb0000;
-} */
+
 
 div > .red{
     color: #bb0000;
