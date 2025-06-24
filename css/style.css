@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
 }
 .navbar {
   width: 100dvw;
@@ -80,7 +81,23 @@ div > .red{
 .container-baru{
     width: 100dvw;
     height: 100dvh;
-    background-image: url('https://st.depositphotos.com/2935381/4189/i/450/depositphotos_41897159-stock-photo-example-concept.jpg');
+    /* background-image: url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.container-tepi{
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.card-tepi{
+    width: 30%;
+    height: 100px;
+    background-color: #0088cc;
+    margin: 20px;
 }
 
 
