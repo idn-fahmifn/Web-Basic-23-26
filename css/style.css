@@ -39,8 +39,21 @@
     background-color: #bb0000;
 }
 
-.third-card p{
+.text-white{
     color: #f4f4f4;
+}
+
+
+.fourth-card{
+    background-color: #eeff00;
+}
+
+/* .fourth-card .judul h1{
+    color: #bb0000;
+} */
+
+div > .red{
+    color: #bb0000;
 }
 
 
