@@ -20,6 +20,8 @@
 .container{
     background-color: #0088cc;
     width: 100dvw;
+    height: 30dvh;
+    padding: 30px;
 }
 
 .area{
@@ -106,11 +108,29 @@ div > .red{
 
 .area-tepi .card-tepi:nth-child(2){
     border-radius: 1000px;
+    visibility: hidden;
 }
 
 .area-tepi .card-tepi:last-child{
     box-shadow: #22222280 5px 5px 20px;
 }
 
+.container-display{
+    width: 100dvw;
+    height: 60dvh;
+    padding: 20px;
+    background-color: #0088cc;
+}
+
+.display-block{
+    background-color: #e4e4e4;
+    padding: 10px;
+}
+
+.elemen{
+    width: 40px;
+    height: 40px;
+    background-color: #bb0000;
+}
 
 
