@@ -32,39 +32,47 @@
         display: inline-block;
       }
 
-      .card{
+      .card-product{
+        width: 20%;
+        position: relative;
+        /* background-color: #0088cc; */
+      }
+
+      .card {
         width: 300px;
         padding: 10px;
         margin: 20px;
         background-color: #ffffff;
         box-shadow: #22222260 3px 3px 20px;
-        position: relative;
         margin: 20px;
+        display: inline-block;
       }
 
-      .image-product{
+      .image-product {
         width: 100%;
       }
 
-      .coret{
+      .coret {
         text-decoration: line-through;
       }
 
-      .label{
+      .label {
         background-color: red;
-        width: 30%;
+        width: 40px;
+        height: 40px;
         padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: rotate(30deg);
         color: #ffffff;
         border-radius: 16px;
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
         top: 10px;
-        left: 200px;
+        left: 70%;
       }
-
-
-
     </style>
   </head>
   <body>
@@ -72,25 +80,21 @@
     <!-- mrngubah style langsung pada tag html -->
     <h1 style="color: #0088cc">Hello Word</h1>
 
-
     <div class="container">
+      <div class="card-product">
+        <div class="label">disc</div>
         <div class="card">
-            <img src="https://images.jdsports.id/i/jpl/jd_HQ8708_a?w=700&resmode=sharp&qlt=70&fmt=webp" class="image-product" alt="image-product">
+          <div class="">
+            <img
+              src="https://images.jdsports.id/i/jpl/jd_HQ8708_a?w=700&resmode=sharp&qlt=70&fmt=webp"
+              class="image-product"
+              alt="image-product"
+            />
             <h3>Sepatu</h3>
             <p>Adidas</p>
-            <div class="label">
-                terlaris
-            </div>
+          </div>
         </div>
-        <div class="card">
-            <div class="label">
-                terlaris
-            </div>
-            <img src="https://images.jdsports.id/i/jpl/jd_HQ8708_a?w=700&resmode=sharp&qlt=70&fmt=webp" class="image-product" alt="image-product">
-            <h3>Sepatu</h3>
-            <p class="coret">Adidas</p>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam recusandae voluptatibus dolorem quisquam et atque optio tempora quis voluptatum provident!</p>
+      </div>
     </div>
 
     <div class="container">
@@ -117,7 +121,6 @@
         </div>
       </div>
     </div>
-    
 
     <div class="container">
       <p>
