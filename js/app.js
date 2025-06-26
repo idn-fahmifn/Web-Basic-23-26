@@ -1,17 +1,20 @@
 // kondisi
 // if
 
-let warna = prompt("Apa warna motornya?");
+// let warna = prompt("Apa warna motornya?");
 
-if (warna == "merah") {
-  alert(`motor ${warna} itu motor saya`);
-} else if (warna == "biru") {
-  alert(`motor ${warna} itu milik toni`);
-} else {
-  alert("motor bukan punya saya");
-}
+// if (warna == "merah") {
+//   alert(`motor ${warna} itu motor saya`);
+// } else if (warna == "biru") {
+//   alert(`motor ${warna} itu milik toni`);
+// } else {
+//   alert("motor bukan punya saya");
+// }
 
-let user = prompt("apa user akses anda?");
+// let user = prompt("apa user akses anda?");
+// let login;
+
+let user = 'karyawan';
 let login;
 
 switch (user) {
@@ -29,6 +32,18 @@ switch (user) {
 }
 alert(`Hak akses anda adalah ${user}, ${login}`);
 
+
+let nilai = 60
+
+if(nilai >= 75){
+    console.log('lulus');
+}
+else if(nilai >= 60){
+    console.log('lulus dengan syarat');
+}
+else{
+    console.log('anda tidak lulus');
+}
 
 
 
