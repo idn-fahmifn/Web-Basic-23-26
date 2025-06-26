@@ -1,3 +1,72 @@
+
+function hello(){
+    alert('Hallo saya sedang belajar ngoding');
+}
+
+let warna = 'pink';
+
+function saya(){
+    alert('ini adalah motor saya');
+}
+
+function toni(){
+    alert('ini adalah motor toni');
+}
+
+function anggi(){
+    alert('ini adalah motor anggi');
+}
+
+if(warna == 'merah'){
+    saya();
+}  else if (warna == 'biru') {
+    toni();
+} else if (warna == 'hijau') {
+    anggi()
+} else {
+    alert('mungki itu punya almar')
+}
+
+
+
+
+let bilA = prompt('Masukan angka ke 1');
+let bilb = prompt('Masukan angka ke 2');
+
+bilA = Number(bilA)
+bilb = Number(bilb)
+
+function jumlah(a, b){
+    hasil = bilA + bilb
+    return hasil;
+}
+
+
+function kurang(){
+    bilA - bilb
+}
+
+
+function bagi(){
+    bilA / bilb
+}
+
+function kali(){
+    bilA * bilb
+}
+
+let operator = prompt ('Masukan operator (+, -, /, atau *)')
+
+if(operator == '+') {
+    alert(jumlah(bilA, bilb));
+}
+
+else{
+    console.log('input anda salah');
+}
+
+
+
 // kondisi
 // if
 
@@ -14,36 +83,36 @@
 // let user = prompt("apa user akses anda?");
 // let login;
 
-let user = 'karyawan';
-let login;
+// let user = 'karyawan';
+// let login;
 
-switch (user) {
-  case "admin":
-    login = "anda berhak login di dashboard admin";
-    break;
+// switch (user) {
+//   case "admin":
+//     login = "anda berhak login di dashboard admin";
+//     break;
 
-  case "student":
-    login = "Akses anda hanya sampai dashboard student";
-    break;
+//   case "student":
+//     login = "Akses anda hanya sampai dashboard student";
+//     break;
 
-  default:
-    login = "Hak akses yang anda masukan salah atau tidak sesuai";
-    break;
-}
-alert(`Hak akses anda adalah ${user}, ${login}`);
+//   default:
+//     login = "Hak akses yang anda masukan salah atau tidak sesuai";
+//     break;
+// }
+// alert(`Hak akses anda adalah ${user}, ${login}`);
 
 
-let nilai = 60
+// let nilai = 60
 
-if(nilai >= 75){
-    console.log('lulus');
-}
-else if(nilai >= 60){
-    console.log('lulus dengan syarat');
-}
-else{
-    console.log('anda tidak lulus');
-}
+// if(nilai >= 75){
+//     console.log('lulus');
+// }
+// else if(nilai >= 60){
+//     console.log('lulus dengan syarat');
+// }
+// else{
+//     console.log('anda tidak lulus');
+// }
 
 
 
