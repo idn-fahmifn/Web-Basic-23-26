@@ -42,6 +42,29 @@
         background-color: #0088cc;
         padding: 30px;
       }
+
+
+      /* ukuran tablet */
+      @media (max-width:768px){
+
+        .container{
+          height: auto;
+        }
+
+        .grid{
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .elemen-grid{
+          background-color: aqua;
+        }
+      }
+
+      /* ukuran mobile */
+      @media (max-width:425px){
+        .grid{
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
       
     </style>
   </head>
@@ -91,9 +114,6 @@
       <div class="elemen-grid"></div>
     </div>
 
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
     <div class="container"></div>
 
     
