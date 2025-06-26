@@ -27,6 +27,7 @@
         height: 100px;
         background-color: #0088cc;
         margin: 20px;
+        animation: bounce 5s;
       }
 
       .grid{
@@ -41,6 +42,17 @@
       .elemen-grid{
         background-color: #0088cc;
         padding: 30px;
+      }
+
+      
+      @keyframes bounce {
+        from {
+          transform: translateY(0);
+        }
+
+        to{
+          transform: translateY(100px);
+        }
       }
 
 
@@ -114,7 +126,11 @@
       <div class="elemen-grid"></div>
     </div>
 
-    <div class="container"></div>
+    <div class="container">
+      <div class="elemen"></div>
+      <div class="elemen"></div>
+      <div class="elemen"></div>
+    </div>
 
     
     
